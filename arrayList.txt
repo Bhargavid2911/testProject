@@ -2,7 +2,7 @@ package arrayList;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-
+//new line
 public class ArrayListUsingIterator38 {
 
 	public static void main(String[] args) {
