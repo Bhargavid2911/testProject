@@ -1,0 +1,20 @@
+package arrayList;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class ArrayListUsingIterator38 {
+
+	public static void main(String[] args) {
+		ArrayList<String> al = new ArrayList<>();
+		al.add("test1");
+		al.add("test2");
+		al.add("test1");
+		Iterator<String> itr = al.iterator();
+		while (itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+		
+	}
+
+}
